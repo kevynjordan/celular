@@ -78,29 +78,13 @@ section {
     margin-left: 20px;
 }
 
-#inicio .lama {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    height: 170px;
-    display: flex;
-    align-items: flex-end;
-}
-
-.inicio .lama img {
-    width: 100%;
-}
-
-#galeria {
-    background-color: #0066fffa;
-}
-
 .galeria {
     width: 1280px;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
     gap: 20px;
+    background-color: #1f2e1b;
 }
 
 .galeria h2 {
@@ -119,8 +103,8 @@ section {
 }
 
 .thumbs {
-    width: 630px;
-    height: 215px;
+    width: 700px;
+    height: 600px;
     align-self: center;
     display: flex;
     align-items: center;
@@ -131,7 +115,7 @@ section {
 
 .thumb {
     width: 200px;
-    height: 100px;
+    height: 200px;
 }
 
 .thumb img {
@@ -139,7 +123,8 @@ section {
 }
 
 .large {
-    width: 630px;
+    width: 550px;
+    height: 450px;
 }
 
 .img-large {
